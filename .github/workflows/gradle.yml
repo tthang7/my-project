@@ -23,7 +23,7 @@ jobs:
     strategy:
     # matrix is where we want to use multi-operation system
       matrix:
-      os: [ubuntu-latest, windows-latest, macOS-latest]
+        os: [ubuntu-latest, windows-latest, macOS-latest]
 
     steps:
     - uses: actions/checkout@v3
